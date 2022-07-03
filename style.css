@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color: goldenrod;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 140px;
 }
@@ -36,4 +39,35 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.experience-area h1{
+    text-decoration: underline;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 12px;
+    box-shadow: 10px 10px 30px rgb(255, 166, 166);
+}
+.experience-item h3{
+    text-decoration: underline;
+}
+#junior-dev{
+    border-top: 7px solid blue;
+    border-left: 5px solid tomato;
+}
+#senior-dev{
+    border-bottom: 7px solid blue;
+    border-right: 7px solid tomato;
+}
+footer p{
+    text-align: center;
+    text-decoration: underline;
+}
+
 
